@@ -129,7 +129,7 @@ module.exports = {
             },
             {
                 // Transpile sass to css
-                test: /\.scss$/,
+                test: /\.(scss|sass)$/,
                 use: IS_PROD ? SASS_CONFIG.PROD : SASS_CONFIG.DEV
             },
             {
